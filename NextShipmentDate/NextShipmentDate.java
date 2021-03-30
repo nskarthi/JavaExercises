@@ -23,7 +23,7 @@ public class NextShipmentDate {
 		calendar.setTime(rDate);
 		calendar.add(Calendar.DATE, vDays);
 		System.out.println("Next Recharge Date: " + sdf.format(calendar.getTime()));
-;
+
 		sc.close();
 	}
 
